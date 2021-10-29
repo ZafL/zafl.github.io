@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ZafL</title>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <!-- Nav -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark p-md-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">ZafL</a>
+            <button 
+            type="button"
+            class="navbar-toggler"
+            data-bs-target="#navbarNav"
+            data-bs-toggle="collapse"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-lable="Toggle Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link text-white">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
+            <h1 class="text-white mb-5">Contact Me</h1>
+            <div class="container my-5 d-grid gap-5">
+                <div class="bg-blur">
+                    <div class="p-5 border text-black">
+                        <section>
+                             <!-- wa -->
+                             <a href="https://wa.me/6285225041144" 
+                             target="_blank" rel="noopener noreferrer"
+                             class="btn btn-outline-dark btn-floating m-1 px-3 py-2"
+                             data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp"
+                             role="button"><i class="fab fa-whatsapp fa-2x"></i></a>
+                             <!-- github -->
+                             <a href="https://github.com/ZafL" 
+                             target="_blank" rel="noopener noreferrer"
+                             class="btn btn-outline-dark btn-floating m-1 px-3 py-2"
+                             data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub"
+                             role="button"><i class="fab fa-github fa-2x"></i></a>
+                             <!-- ig -->
+                             <a href="https://www.instagram.com/dff_654/"
+                             target="_blank" rel="noopener noreferrer"
+                             class="btn btn-outline-dark btn-floating m-1 px-3 py-2" 
+                             data-bs-toggle="tooltip" data-bs-placement="top" title="Intagram"
+                             role="button"
+                             ><i class="fab fa-instagram fa-2x insta"></i></a>
+                             <!-- email -->
+                             <a href="mailto: fadlidzaky3@gmail.com"
+                             target="_blank" rel="noopener noreferrer" 
+                             class="btn btn-outline-dark btn-floating m-1 px-3 py-2"
+                             data-bs-toggle="tooltip" data-bs-placement="top" title="E-Mail"
+                             role="button"><i class="far fa-envelope fa-2x"></i></a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-dark text-center text-lg-start">
+        <div class="text-center text-white p-3">
+            2021 ZafL
+        </div>
+    </footer>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 200) {
+                nav.classList.add('bg-dark', 'shadow');
+            } else {
+                nav.classList.remove('bg-dark', 'shadow');
+            }
+        });
+
+        $(document).ready(function(){
+            $('[data-bs-toggle="tooltip"]').tooltip();   
+        });
+
+    </script>
+</body>
+</html>

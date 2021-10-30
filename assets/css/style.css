@@ -31,6 +31,9 @@ body {
     display: inline-block;
     position: relative;
 }
+.link-light:hover {
+    color: #2088d1;
+}
 .github-link:after {
     content: '';
     position: absolute;
@@ -39,7 +42,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: #d36db7;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }

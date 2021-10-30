@@ -1,6 +1,12 @@
+@font-face {
+    font-family: FiraSans;
+    src: url(../font/FiraSans.ttf);
+}
+html, body {
+    font-family: "FiraSans";
+}
 body {
     background-color: #eefaff;
-    font-family: system-ui;
 }
 .navbar {
     z-index: 2000;

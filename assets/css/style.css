@@ -96,3 +96,8 @@ body {
 .user-detail h5{
     margin:15px 0px 5px 0px;
 }
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
